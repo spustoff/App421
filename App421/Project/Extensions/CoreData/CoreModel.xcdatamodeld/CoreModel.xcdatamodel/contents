@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22757" systemVersion="23C71" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="IdeaModel" representedClassName="IdeaModel" syncable="YES" codeGenerationType="class">
+        <attribute name="category" optional="YES" attributeType="String"/>
+        <attribute name="idea_name" optional="YES" attributeType="String"/>
+        <attribute name="ideal_for" optional="YES" attributeType="String"/>
+        <attribute name="objective" optional="YES" attributeType="String"/>
+        <attribute name="success_metrics" optional="YES" attributeType="String"/>
+        <attribute name="text" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ProjectModel" representedClassName="ProjectModel" syncable="YES" codeGenerationType="class">
+        <attribute name="amount" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="category" optional="YES" attributeType="String"/>
+        <attribute name="channel_name" optional="YES" attributeType="String"/>
+        <attribute name="ends" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="idea" optional="YES" attributeType="String"/>
+        <attribute name="starts" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="text" optional="YES" attributeType="String"/>
+    </entity>
+</model>
